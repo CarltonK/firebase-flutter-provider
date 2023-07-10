@@ -40,7 +40,8 @@ android {
 
     defaultConfig {
         applicationId "com.lengaquprojectname.lengaqu_test"
-        minSdkVersion flutter.minSdkVersion
+        minSdkVersion 19
+        multiDexEnabled true
         targetSdkVersion flutter.targetSdkVersion
         versionCode flutterVersionCode.toInteger()
         versionName flutterVersionName
